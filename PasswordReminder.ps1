@@ -28,7 +28,6 @@ function CheckModules {
                 }
                 Default {
                     Write-Host "This option is unavailable. Try again." -ForegroundColor Yellow
-                    return
                 }
             }
         }until($confirm -ne "Yes")
